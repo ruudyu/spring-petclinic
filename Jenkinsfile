@@ -19,7 +19,6 @@ pipeline {
             }
         }
 
-
         stage('Package Application') {
             steps {
                 sh 'mvn package -DskipTests'
